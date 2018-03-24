@@ -1,3 +1,4 @@
+import random
 import nexmo
 
 from config import config
