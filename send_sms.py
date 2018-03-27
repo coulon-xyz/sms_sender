@@ -6,7 +6,7 @@ import datetime
 from config import config
 
 if __name__ == "__main__":
-    cwd = os.getcwd()
+    cwd = os.path.dirname(os.path.abspath(__file__))
     db = pd.read_csv(os.path.join(cwd, 'data', 'db_names.csv'))
     dice_number = random.randint(1, 6)
     print("##############")
