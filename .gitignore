@@ -31,7 +31,6 @@
 *.sqlite
 *.bson
 *.xlsx
-*.csv
 dump/
 dump/*
 
