@@ -9,6 +9,7 @@ if __name__ == "__main__":
     cwd = os.getcwd()
     db = pd.read_csv(os.path.join(cwd, 'data', 'db_names.csv'))
     dice_number = random.randint(1, 6)
+    print("##############")
     print("date: ", datetime.datetime.now())
     print("dice: ", dice_number)
 
@@ -22,5 +23,6 @@ if __name__ == "__main__":
             'to': remote_number,
             'text': '{} est en ligne et te propose un duel !'.format(firstname),
         })
-
+        print()
+        print("name: ", firstname)
         print(r)
