@@ -23,6 +23,5 @@ if __name__ == "__main__":
             'to': remote_number,
             'text': '{} est en ligne et te propose un duel !'.format(firstname),
         })
-        print()
         print("name: ", firstname)
         print(r)
